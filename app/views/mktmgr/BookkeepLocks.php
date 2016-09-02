@@ -1,0 +1,20 @@
+<?php
+
+class BookkeepLocks extends Eloquent {
+
+	/**
+	 * The database table used by the model.
+	 *
+	 * @var string
+	 */
+	protected $table = 'bookkeep_locks';
+
+	/**
+	 * The attributes excluded from the model's JSON form.
+	 *
+	 * @var array
+	 */
+  
+    public $timestamps  = false;
+    
+}
